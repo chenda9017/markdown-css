@@ -1,37 +1,37 @@
-* {
-    font-family: Helvetica Neue,"Source Sans Pro",Avenir,Helvetica,Arial,sans-serif,"微软雅黑", freesans,clean;
-    color: #4a4235;
-}
+
 
 h1,h2,h3,h4,h5,h6{
-    font-family: "Source Sans Pro",sans-serif;
-    line-height: 1.1;
+    font-family: Avenir,Calibri,"Source Sans Pro",sans-serif;
+    line-height: 1.35;
 }
 
-html,body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,code,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,table,tbody,tfoot,thead,tr,th,td {
-    border: 0;
+html,body,h1,h2,h3,h4,h5,h6,p,blockquote,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,table,tbody,tfoot,thead,tr,th,td {
+
     /* font-size: <fontsize>px; dynamic variable set in application preferences*/
     margin: 4;
     padding: 0;
     outline: 0;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 1.65;
+
 
 }
 
 body {
     /*-webkit-font-smoothing: antialiased;*/
+    font-family: Avenir,Calibri,"Helvetica Neue light","Source Sans Pro",Helvetica,sans-serif, freesans,clean;
+    letter-spacing: 0.06em;
     -webkit-border-radius: 3px;
             border-radius: 3px;
     -webkit-box-shadow: inset 0 0 0 1px #cecece;
             box-shadow: inset 0 0 0 1px #cecece;
-    max-width:912px;
+    max-width:712px;
     margin:2em auto;
     padding-top: 12px;
     padding-right: 30px; /* padding-right: 0; (set to 30 for example render) */
     padding-bottom: 9px;
     padding-left: 30px; /* padding-left: 0; (set to 30 for example render) */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
 
 }
 
@@ -40,6 +40,7 @@ img {
     display: block;
     padding: 10px 0;
     max-width: 100%;
+
 }
 
 .video_embed {
@@ -83,11 +84,11 @@ hr {
 h1 {
     text-transform: capitalize;
     color: #FF3C10;
-    font-size: 38px;
+    font-size: 32px;
     text-shadow: 0 1px 0 #fff;
     font-weight: 500;
     margin-bottom: 10px;
-    margin-top: 28px;
+    margin-top: 24px;
     margin: .67em 0;
     box-sizing: border-box;
     display: block;
@@ -105,10 +106,10 @@ h2 {
     text-transform: capitalize;
     border-bottom: 2px solid #aaa;
     color: #419eda;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 400;
     line-height: 1.2;
-    margin-top: 60px;
+    margin-top: 24px;
     margin-bottom: 30px;
     text-shadow: 0 1px 0 #fff;
 }
@@ -119,7 +120,7 @@ h3,h4,h5,h6 {
 
 h3 {
     color: #FF3C10;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -161,7 +162,7 @@ dl,ol,ul,p,blockquote,pre {
 
 ol,ul {
     margin: .8em 0;
-    padding-left: 23px;
+    padding-left: 9px;
 }
 
 ol li {
@@ -192,15 +193,17 @@ ol ol,ol ul,ul ol,ul ul {
 
 blockquote {
     font-style: italic;
-    font-size: 14px;
+    font-size: 16px;
     border-left: 5px solid #dadde4;
     padding-left: 20px;
-    margin: 0em 0em 1.5em;
+    margin: 0em 0em .3em;
+    line-height: 110%;
 
 }
 
 pre,code,tt {
     font-family:'Soure code pro for powerline', Menlo, monospace;
+    font-size: 15px;
 }
 
 pre {
